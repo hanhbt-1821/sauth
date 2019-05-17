@@ -1,0 +1,19 @@
+{
+    "name": "hanhbt-1821/sauth",
+    "description": "SunAsterisk OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [{
+        "name": "Bui The Hanh",
+        "email": "bui.the.hanh@sun-asterisk.com"
+    }],
+    "require": {
+        "php": "^7.0",
+        "laravel/socialite": "^4.1",
+        "socialiteproviders/manager": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\SunAsterisk\\": "src/"
+        }
+    }
+}
